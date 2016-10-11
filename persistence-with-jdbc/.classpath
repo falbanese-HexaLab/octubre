@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="war/WEB-INF/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/com.sap.core.runtime.sdkTarget/Java EE 6 Web Profile">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java-libraries/jfreechart-1.0.9.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java-libraries/jfreechart-dependency-jcommon-1.0.12.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

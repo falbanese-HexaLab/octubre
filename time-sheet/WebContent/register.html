@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+	   		
+	<script id='sap-ui-bootstrap" type="text/javascript' 
+     		src='https://openui5.hana.ondemand.com/1.28.15/resources/sap-ui-core.js'      		
+     		data-sap-ui-theme="sap_bluecrystal">
+   	</script>
+</head>
+  
+<body class="sapUiBody" role="application">
+	<!-- Without leading /, they are relative to the current URL -->
+	<form action="/time-sheet/Register" method="post">  
+		First Name:<input type="text" name="RegisterFirstName"/><br/><br/>
+		Last Name:<input type="text" name="RegisterLastName"/><br/><br/>
+		Username (e-mail):<input type="text" name="RegisterUsername"/><br/><br/>  
+		Password:<input type="password" name="RegisterPassword"/><br/><br/>    
+		<input type="submit" value="register"/>  
+	</form> 
+	
+	<br></br>
+	<form action="/time-sheet/Login" method="post"> 
+		Username:<input type="text" name="LoginUsername"/><br/><br/>  
+		Password:<input type="password" name="LoginPassword"/><br/><br/> 
+		<input type="submit" value="login"/> 
+	</form>
+</body>  
+</html>  
